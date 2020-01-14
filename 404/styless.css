@@ -1,0 +1,89 @@
+html {
+  background-image: url(fond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.titre {
+  margin-top: 6%;
+  margin-left: 52%;
+  font-size: 4em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #e6e0ff;
+}
+.text {
+  margin-left: 52%;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 2%;
+  color: #e6e0ff;
+}
+.livre {
+  margin-left: 15%;
+  margin-top: 8%;
+  height: 24em;
+  float: left;
+}
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+.bouton {
+  margin-left: 60%;
+  background: #30fd8f;
+  height: 3rem;
+  width: 20rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e6e0ff;
+  cursor: pointer;
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+.pay {
+  width: 10rem;
+  height: 5rem;
+  display: inline;
+  text-align: right;
+  margin-right: 15%;
+  float: right;
+  margin-bottom: 5%;
+}
+#master {
+  margin-right: 7%;
+}
+#visa {
+  margin-right: 3%;
+}
+#paypal {
+  margin-right: 3%;
+}
